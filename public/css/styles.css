@@ -1,0 +1,33 @@
+
+body {
+    background-color: #8B4513; /* Café */
+    color: #fff; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.libros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.libro {
+    background-color: #D2B48C;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box;
+}
+
+.libro h2 {
+    margin-top: 0;
+}
+
+.libro p {
+    margin: 10px 0;
+}
+
