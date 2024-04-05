@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Biblioteca ConfiguroWeb</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <div class="container">
+        <nav>
+            <a href="index.php">Inicio</a>
+            <a href="libro.php">Libros</a>
+            <a href="autores.php">Autores</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <h1>BIBLIOTECA ITLA</h1>
+        <h2>EL SABER ES PODER</h2>
+    </div>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav h1 {
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #343a40;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+
+    <div class="container">
+        <div class="contact-form">
+            <h2>¿TIENES PREGUNTAS? ¡CONTÁCTANOS!</h2>
+            <p>LLena los campos para enviar un correo electrónico. Todos los campos con el asterisco ('*') son obligatorios.</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="asunto">Asunto *</label>
+                <input type="text" id="asunto" name="asunto" required>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
